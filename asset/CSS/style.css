@@ -325,3 +325,8 @@ footer h1{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+footer p{
+    text-align: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
