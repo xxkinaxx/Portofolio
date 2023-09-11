@@ -1,0 +1,131 @@
+@media screen and (max-width:800px) {
+    .menu{
+        display: block;
+    }
+    .header-right{
+        flex-wrap: wrap;
+        width: 150px;
+        margin-right: -15px;
+    }
+    .navbar-item{
+        display: none;
+        right: 0;
+        width: 100%;
+    }
+    .navbar-link{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        margin-right: auto;
+    }
+    .active{
+        display: block;
+    }
+    .introduction{
+        display: flex;
+        flex-direction: column;
+    }
+    .images{
+        margin-left: 130px;
+    }
+    .containers{
+        text-align: center;
+        margin-right: 10px;
+    }
+    .skill-wrapper{
+        height: 850px;
+    }
+    .skill-img img{
+        height: 150px;
+        width: 150px;
+    }
+    .certificate-wrapper{
+        height: 1600px;
+    }
+    .project-wrapper{
+        height: 750px;
+    }
+    .project-img img{
+        width: 580px;
+        height: 300px;
+    }
+    .contact-box{
+        width: 40%;
+    }
+}
+@media screen and (max-width:450px) {
+    .navbar-link{
+        width: 40%;
+    }
+    .header-left{
+        margin-top: 22px;
+    }
+    .home h1, .home h2{
+        text-align: center;
+    }
+    .home h1{
+        font-size: 50px;
+        margin-top: -100px;
+    }
+    .home h2{
+        font-size: 30px;
+    }
+    .logo{
+        font-size: 25px;
+    }
+    .introduction{
+        margin: auto;
+    }
+    .images img{
+        width: 300px;
+        height: 400px;
+        margin-left: -80px;
+    }
+    .containers h1{
+        font-size: 30px;
+    }
+    .containers h2{
+        font-size: 20px;
+    }
+    .containers p{
+        font-size: 17px;
+    }
+    .skill-img img{
+        width: 100px;
+        height: 100px;
+    }
+    .skill-wrapper{
+        height: 750px;
+    }
+    .skill-explain h3{
+        font-size: 15px;
+    }
+    .skill-explain p{
+        font-size: 10px;
+    }
+    .certificate-box{
+        width: 400px;
+    }
+    .certificate-img img{
+        width: 400px;
+        height: 270px;
+    }
+    .project-box{
+        width: 400px;
+    }
+    .project-img img{
+        width: 400px;
+        height: 200px;
+    }
+    .contact-img img{
+        width: 150px;
+        height: 150px;
+    }
+    .contact-box{
+        width: 150px;
+    }
+    .contact-box a, .contact-box p{
+        font-size: 10px;
+        font-weight: bold;
+    }
+}
