@@ -244,6 +244,13 @@ section h1{
 .project-explain{
     text-align: center;
 }
+.project h2{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 50px;
+}
 .visit-button{
     background-color: rgba(192, 115, 247, 0.8);
     border-radius: 10px;
@@ -259,6 +266,58 @@ section h1{
 }
 .visit-button:hover{
     background-color: rgba(95, 52, 156, 0.8);
+}
+.project .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    position: relative;
+}
+.project .container .box{
+    position: relative;
+    padding: 40px 0;
+    margin-right: 30px;
+    border-radius: 20px;
+    width: 240px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.project .container .box .circle{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: conic-gradient(from 0deg, var(--clr) 0%,var(--clr) 0% var(--i), #333 var(--i), #333 100%);
+    border-radius: 50%;
+}
+.project .container .box .circle::before{
+    content: '';
+    position: absolute;
+    inset: 10px;
+    background: #25252b;
+    border-radius: 50%;
+}
+.project .container .box h2{
+    position: relative;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 2.5em;
+    color: white;
+    font-weight: 600;
+}
+.project .container .box h2 small{
+    font-size: 0.5em;
+    font-weight: 300;
+}
+.project .container .box h3{
+    color: white;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
 }
 
 /* contact */
